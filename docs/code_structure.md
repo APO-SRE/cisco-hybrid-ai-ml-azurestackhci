@@ -92,21 +92,20 @@ Below is the hierarchical structure of the `code` directory and related scripts:
   - **`conda-env-cisco-mlflow-azureml.yml`**: Specifies the Conda environment dependencies.
 
 ---
-
 ## Setup and Installation
 
 To set up the environment and prepare for running the pipelines, follow the steps in each of these sections:
 
-1. **[Azure Stack HCI Install](../deployments/hci_deployment_guide.md)**  
-2. **[AKS Deployment Install](../deployments/aks_deployment_guide.md)**  
-3. **[Azure Machine Learning Deployment](../deployments/ml_deployment_guide.md)**  
+1. **[Azure Stack HCI Install](deployment/hci_deployment_guide.md)**  
+2. **[AKS Deployment Install](deployment/aks_deployment_guide.md)**  
+3. **[Azure Machine Learning Deployment](deployment/ml_deployment_guide.md)**  
 
 ### Environment Setup
 
-- Follow the environment steps listed in the [Environment README](../Pipeline/environment/README.md).
+- Follow the environment steps listed in the [Environment README](code/environment/README.md).
 
 ## Run Pipelines
 
 - Follow the [Running ML Workloads Guide](docs/running_ml_workloads_guide.md) to run Training and Scoring Pipelines.
 
-**Note**: For any questions or issues, please refer to the [Contributing](../README.md#contributing) section in the main `README.md` or open an issue in the repository.
+**Note**: For any questions or issues, please refer to the [Contributing](README.md#contributing) section in the main `README.md` or open an issue in the repository.
