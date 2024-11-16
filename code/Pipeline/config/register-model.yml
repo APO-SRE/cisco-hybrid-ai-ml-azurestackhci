@@ -1,0 +1,18 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+name: register_model
+version: 1
+display_name: Register Model
+type: command
+inputs:
+  model:
+    type: mlflow_model
+  test_report:
+    type: uri_folder
+environment: azureml:cisco-mlflow-azureml-env2:5
+code: ../scripts
+command: >-
+  python register_model.py 
+  --model ${{inputs.model}} 
+  --test_report ${{inputs.test_report}}
+resources:
+  instance_type: standardinstancetype

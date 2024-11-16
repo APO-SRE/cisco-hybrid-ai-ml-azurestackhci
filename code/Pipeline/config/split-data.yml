@@ -1,0 +1,22 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+name: split_data
+display_name: Split Data
+version: 1
+type: command
+inputs:
+  input_data:
+    type: uri_folder
+outputs:
+  output_data_train:
+    type: uri_folder
+  output_data_test:
+    type: uri_folder
+code: ../scripts
+environment: azureml:cisco-mlflow-azureml-env2:5
+command: >-
+  python split_data.py 
+  --input_data ${{inputs.input_data}}
+  --output_data_train ${{outputs.output_data_train}}
+  --output_data_test ${{outputs.output_data_test}}
+resources:
+  instance_type: standardinstancetype

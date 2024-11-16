@@ -1,0 +1,32 @@
+name: conda-env-cisco-mlflow-azureml2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - conda-forge::ncurses
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - mlflow
+      - azureml-core
+      - azureml-defaults
+      - azureml-mlflow
+      - azureml-telemetry
+      - azure-identity
+      - azureml-dataprep
+      - azureml-dataset-runtime
+      - azureml-pipeline-core
+      - azureml-pipeline-steps
+      - azureml-train-core
+      - azureml-train-automl-client
+      - azureml-train-automl-runtime
+      - azureml-train-restclients-hyperdrive
+      - azureml-widgets
+      - azure-storage-blob
+      - azure-storage-file-share
+      - azure-storage-file-datalake
+      - azureml  
+      - requests

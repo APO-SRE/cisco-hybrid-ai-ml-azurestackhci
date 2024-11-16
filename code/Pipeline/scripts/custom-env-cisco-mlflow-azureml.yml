@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: cisco-mlflow-azureml-env
+version: 9
+conda_file: conda-env-cisco-mlflow-azureml.yml
+image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04:latest
+description: Custom environment for Cisco with MLflow and Azure ML libraries
