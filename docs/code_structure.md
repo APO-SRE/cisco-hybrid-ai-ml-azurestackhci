@@ -97,13 +97,13 @@ Below is the hierarchical structure of the `code` directory and related scripts:
 
 To set up the environment and prepare for running the pipelines, follow the steps in each of these sections:
 
-1. **[Azure Stack HCI Install](deployments/hci_deployment_guide.md)**  
-2. **[AKS Deployment Install](deployments/aks_deployment_guide.md)**  
-3. **[Azure Machine Learning Deployment](deployments/ml_deployment_guide.md)**  
+1. **[Azure Stack HCI Install](../deployments/hci_deployment_guide.md)**  
+2. **[AKS Deployment Install](../deployments/aks_deployment_guide.md)**  
+3. **[Azure Machine Learning Deployment](../deployments/ml_deployment_guide.md)**  
 
 ### Environment Setup
 
-- Follow the environment steps listed in the [Environment README](environment/README.md).
+- Follow the environment steps listed in the [Environment README](../Pipeline/environment/README.md).
 
 ## Run Pipelines
 
