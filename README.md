@@ -101,7 +101,7 @@ Access tutorials, examples, and resources to help you understand and implement A
 Explore Cisco’s Azure Stack HCI AI/ML capabilities through the following video resources:
 
 - **Cisco AI-Driven Secure Enterprise Data Architecture Overview**: [Watch Video](https://vimeo.com/1029648222?share=copy#t=0)  
-- **Cisco AI Machine Learning**: [Watch Video](https://vimeo.com/1029648222?share=copy#t=0)  
+- **Cisco AI Machine Learning**: [Watch Video](https://vimeo.com/1029723696?share=copy#t=0)  
 - **Cisco Generative A**I: [Watch Video](https://vimeo.com/1029776033?share=copy#t=0)
 
 
